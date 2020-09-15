@@ -12,6 +12,8 @@
   "author": "Harmony Trevena",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.3",
+    "pg-promise": "^10.6.1"
   }
 }
