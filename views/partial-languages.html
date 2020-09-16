@@ -1,4 +1,5 @@
-<h1>${title}</h1>
+
+<h1 class="header">${title}</h1>
 <ul>
-    ${data.map(language => `<li>${language.name}: ${language.ranking_id} </li>`).join('')}
+    ${data.map(language => `<li>${language.name} - I am <strong>${language.ranking}</strong> at ${language.name}</li>`).join('')}
 </ul>
